@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project name
-project(Car_Infotainment_Application)
+project(Car_Information_Application)
 
 # Set the source directory
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
@@ -39,7 +39,7 @@ configure_file(${RESOURCE_DIR}/languages.txt ${CMAKE_CURRENT_BINARY_DIR}/languag
 configure_file(${RESOURCE_DIR}/timezones.txt ${CMAKE_CURRENT_BINARY_DIR}/timezones.txt COPYONLY)
 
 # Create the executable from the source files
-add_executable(Car_Infotainment_Application ${SOURCES})
+add_executable(Car_Information_Application ${SOURCES})
 
 # Link the SQLite library to the executable
-target_link_libraries(Car_Infotainment_Application sqlite3)
+target_link_libraries(Car_Information_Application sqlite3)

@@ -60,8 +60,7 @@ namespace Util
     const std::string pattern1_5 = "[1-5]{1}";
     const std::string pattern1_30 = "^(30|[1-9]|[1-2][0-9])$";
     const std::string pattern1_32 = "^(3[0-2]|[1-2]?[0-9])$";
-    // const std::string patternName = "[a-zA-Z]+\\s[a-zA-Z]+(\\s[a-zA-Z]+)*";
-    const std::string patternName = "[a-zA-Z]+";
+    const std::string patternName = "^[A-Za-z]+( [A-Za-z]+)*$";
     const std::string patternEmail = "[A-Za-z0-9_]{2,}\.@[A-Za-z]{2,}\.([A-Za-z]{3})";
     const std::string patternKey = "[0-9]{8}";
     const std::string patternOdoAndService = "[0-9]+";
